@@ -51,6 +51,72 @@
      <img src="./image/preloader.gif" alt="preloader">
    </div>
    </div>    -->
+   <!-- Modal -->
+   <div class="modal fade" id="logIn" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+   aria-labelledby="logInLabel" aria-hidden="true">
+   <div class="modal-dialog modal-dialog-centered modal-lg">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h5 class="modal-title" id="logInLabel">Log In</h5>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+       </div>
+       <div class="modal-body align-self-center" style="width: 100%;">
+         The Portal is under development. Please contact on official number.
+       </div>
+
+
+     </div>
+   </div>
+ </div>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body align-self-center" style="width: 100%;">
+            <iframe class="responsive-iframe"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfI70Xm4y9qKa-oSS30aUAYw0VLF9AXb50h-aMGslCBwOXtLg/viewform?embedded=true"
+              style="width:100%" height="1524" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="infoModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="infoLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="infoLabel">Contact Information</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body align-self-center" style="width: 100%;">
+            <ul class="widget-links pl-0 list-unstyled">
+              <li style="line-height: 40px;"><img src="https://img.icons8.com/fluency/48/000000/circled-envelope.png"
+                  width="20" style="margin-right: 10px;" />aarambhycs@gmail.com</li>
+              <li style="line-height: 40px;"><a href="https://maps.app.goo.gl/bszx2CVHne3uj4mU8"><img
+                    src="https://img.icons8.com/color/48/000000/google-maps.png" width="20"
+                    style="margin-right: 10px;" />H.No 141, Bhetapara Ghoramara Road, P.O. Beltola, Guwahati, Assam</a>
+              </li>
+              <li style="line-height: 40px;"><img src="https://img.icons8.com/office/16/000000/contact-card.png"
+                  width="20" style="margin-right: 10px;" />+91 70024 36740</li>
+              <li style="line-height: 40px;"><a href="https://t.me/AarambhYCS"><img
+                    src="https://img.icons8.com/color/48/000000/telegram-app.png" width="20"
+                    style="margin-right: 10px;" />Join Us on Telegram</a></li>
+            </ul>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
     <!--Site Header Area -->
     <header class="site-header site-header--menu-center landing-12-menu site-header--absolute site-header--sticky">
       <div class="container">
@@ -125,10 +191,12 @@
                 </li> -->
 
                 <li class="nav-item">
-                  <a href="https://medium.com" class="nav-link-item">Blog</a>
+                  <a href="https://t.me/AarambhYCS" class="nav-link-item" target="_blank"><img
+                      src="https://img.icons8.com/color/48/000000/telegram-app.png" width="20"
+                      style="margin-right: 10px;" />Join Telegram</a>
                 </li>
                 <li class="nav-item">
-                  <a href="https://aarambh.foundation" class="nav-link-item">Support</a>
+                  <a class="nav-link-item" type="button" data-bs-toggle="modal" data-bs-target="#infoModal">Support</a>
                 </li>
                 <li class="nav-item nav-item-has-children">
                   <a class="nav-link-item drop-trigger">Courses <i class="fa"><img
@@ -136,21 +204,20 @@
                   </a>
                   <ul class="sub-menu" id="submenu-9">
                     <li class="sub-menu--item">
-                      <a href="">GS Pre cum Mains Foundation
+                      <a href="./Course_files/foundational.jpeg" target="_blank">Foundational
                       </a>
                     </li>
                     <li class="sub-menu--item">
-                      <a href="">
-                        GS Pre cum Mains Foundation for Working and College Students
+                      <a href="./Course_files/professional.jpeg" target="_blank">Working Professionals
                       </a>
                     </li>
                     <li class="sub-menu--item">
-                      <a href="">
-                        Individual modules (Prelims)
+                      <a href="./Course_files/individual.jpeg" target="_blank">
+                        Individual Module
                       </a>
                     </li>
                     <li class="sub-menu--item">
-                      <a href="">
+                      <a href="./Course_files/crash.jpeg" target="_blank">
                         Crash Course</a>
                     </li>
                   </ul>
@@ -164,7 +231,7 @@
                       }
                     }
                   </style>
-                  <a href="https://aarambh.foundation" class="nav-link-item hide-item" target="_blank">Download
+                  <a href="./Course_files/aarambhProspectus.pdf" class="nav-link-item hide-item" target="_blank">Download
                     Prospectus</a>
                 </li>
                 <!-- <li class="nav-item">
@@ -188,7 +255,7 @@
             </style>
             <a style="background-color: #F39E1E; color: white"
               class="row-xl-3 row-lg-4 row-md-3 row-sm-12  btn focus-reset hide-button"
-              href="https://aarambh.foundation/" target="_blank">Download
+              href="./Course_files/aarambhProspectus.pdf" target="_blank">Download
               Prospectus</a>
           </div>
           <!-- mobile menu trigger -->
@@ -216,10 +283,13 @@
               </p> -->
               <div class="col justify-content-center">
                 <a class="row-xl-3 row-lg-4 row-md-3 row-sm-12 btn focus-reset"
-                  style="background-color: #F39E1E; color: white; font-size: 1rem; margin-right: 1rem" href="https://aarambh.foundation/">Sign Up</a>
+                  style="background-color: #F39E1E; color: white; font-size: 1rem; margin-right: 1rem" type="button"
+                  class="btn focus-reset" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign
+                  Up</a>
                 <a target="_blank" class="row-xl-3 row-lg-4 row-md-3 row-sm-12 btn focus-reset"
-                  style="background-color: #F39E1E; color: white; font-size: 1rem; margin-right: 1rem" href="./Course_files/payment.png"
-                  class="btn focus-reset">Log In</a>
+                  style="background-color: #F39E1E; color: white; font-size: 1rem; margin-right: 1rem" type="button"
+                  data-bs-toggle="modal" data-bs-target="#logIn"
+                  >Log In</a>
               </div>
 
               <!-- <div class="star-ratings-l12 d-xs-flex align-items-baseline">
@@ -267,18 +337,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h2>Bundle Courses We Offer</h2>
+            <h2><b>Bundle Courses We Offer</b></h2>
           </div>
         </div>
         <div class="row counter-area-l12-items z-index-5 position-relative">
           <div class="col-xxl-3 col-xl-3 col-lg-6 col-sm-6">
-            <a target="_blank" href="./Course_files/foundational.png">
+            <a target="_blank" href="./Course_files/foundational.jpeg">
               <div style="min-height: 400px; max-height: 400px; margin-bottom: 20px;"
                 class="counter-single-wrapper-l-12 d-flex justify-content-center text-center bg-white position-relative overflow-hidden z-index-1">
                 <div class="d-block">
-                  <h5 style="line-height: 2.5rem;"><span style="font-size: 2.5rem; line-height: 2.5rem;">GS Pre cum
-                      Mains Foundation</span></h5>
-                  <p style="padding-top: 93px;">INR 50,000</p>
+                  <h5 style="line-height: 2.5rem;"><span style="font-size: 2.5rem; line-height: 2.5rem;">Foundational</span></h5>
+                  <p style="padding-top: 73px;">INR 14,999(Prelims)</p>
+                  <p style="padding-top: 10px;">INR 24,999(Mains)</p>
+                  <p style="padding-top: 10px;">INR 35,000 (Prelims+Mains)</p>
                   <p>Click for more details</p>
                 </div>
                 <div class="counter_bg-img">
@@ -288,13 +359,31 @@
             </a>
           </div>
           <div class="col-xxl-3 col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate">
-            <a target="_blank" href="./Course_files/crash.png">
+            <a target="_blank" href="./Course_files/professional.png">
+
+              <div style="min-height: 400px; max-height: 400px; margin-bottom: 20px;"
+                class="counter-single-wrapper-l-12 d-flex justify-content-center text-center bg-white position-relative overflow-hidden z-index-1">
+                <div class="d-block">
+                  <h5 style="line-height: 2.5rem;"><span style="font-size: 2.5rem; line-height: 2.5rem;">Working Professionals</span></h5>
+                  <p style="padding-top: 23px;">INR 16,999(Prelims)</p>
+                  <p style="padding-top: 10px;">INR 26,999(Mains)</p>
+                  <p style="padding-top: 10px;">INR 40,000 (Prelims+Mains)</p>
+                  <p>Click for more details</p>
+                </div>
+                <div class="counter_bg-img">
+                  <img src="./Course_files/l6-counter-img3.png" alt="">
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate">
+            <a target="_blank" href="./Course_files/crash.jpeg">
               <div style="min-height: 400px; max-height: 400px; margin-bottom: 20px;"
                 class="counter-single-wrapper-l-12 d-flex justify-content-center text-center bg-white position-relative overflow-hidden z-index-1">
                 <div class="d-block">
                   <h5 style="line-height: 2.5rem;"><span style="font-size: 2.5rem; line-height: 2.5rem;">Crash
                       Course</span></h5>
-                  <p style="padding-top: 139px;">INR 20,000</p>
+                  <p style="padding-top: 139px;">INR 6,999</p>
                   <p>Click for more details</p>
                 </div>
                 <div class="counter_bg-img">
@@ -304,13 +393,14 @@
             </a>
           </div>
           <div class="col-xxl-3 col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate">
-            <a target="_blank" href="./Course_files/crash.png">
+            <a target="_blank" href="./Course_files/individual.jpeg">
               <div style="min-height: 400px; max-height: 400px; margin-bottom: 20px;"
                 class="counter-single-wrapper-l-12 d-flex justify-content-center text-center bg-white position-relative overflow-hidden z-index-1">
                 <div class="d-block">
                   <h5 style="line-height: 2.5rem;"><span style="font-size: 2.5rem; line-height: 2.5rem;">Individual
-                      Course</span></h5>
-                  <p style="padding-top: 139px;">INR 30,000</p>
+                      Module</span></h5>
+                  <p style="padding-top: 69px;">INR 5,999(CSAT)</p>
+                  <p style="padding-top: 10px;">INR 3,999(Other Modules)</p>
                   <p>Click for more details</p>
                 </div>
                 <div class="counter_bg-img">
@@ -319,7 +409,7 @@
               </div>
             </a>
           </div>
-          <div class="col-xxl-3 col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate">
+          <!-- <div class="col-xxl-3 col-xl-3 col-lg-6 col-sm-6 aos-init aos-animate">
             <a target="_blank" href="./Course_files/professional.png">
 
               <div style="min-height: 400px; max-height: 400px; margin-bottom: 20px;"
@@ -335,7 +425,7 @@
                 </div>
               </div>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -1119,11 +1209,30 @@
         <div class="container">
           <div class="footer-l-12-top-border"></div>
           <div class="row justify-content-center">
-            <div class="col-lg-7 col-md-11 pl-lg-6 aos-init aos-animate" data-aos="fade-right" data-aos-duration="800"
+            <div class="col-lg-10 col-md-11 pl-lg-6 aos-init aos-animate" data-aos="fade-right" data-aos-duration="800"
               data-aos-once="true">
               <div class="row">
-                <div class="col-sm-3 col-xs-6">
+                <div class="col-sm-4 col-xs-6">
                   <div class="footer-widget widget2">
+                    <p>Contact Information</p>
+                    <ul class="widget-links pl-0 list-unstyled">
+                      <li style="line-height: 40px;"><img
+                          src="https://img.icons8.com/fluency/48/000000/circled-envelope.png" width="20"
+                          style="margin-right: 10px;" />aarambhycs@gmail.com</li>
+                      <li style="line-height: 40px;"><a href="https://maps.app.goo.gl/bszx2CVHne3uj4mU8"><img
+                            src="https://img.icons8.com/color/48/000000/google-maps.png" width="20"
+                            style="margin-right: 10px;" />H.No 141, Bhetapara Ghoramara Road, P.O. Beltola, Guwahati,
+                          Assam</a></li>
+                      <li style="line-height: 40px;"><img src="https://img.icons8.com/office/16/000000/contact-card.png"
+                          width="20" style="margin-right: 10px;" />+91 70024 36740</li>
+                      <li style="line-height: 40px;"><a href="https://t.me/AarambhYCS"><img
+                            src="https://img.icons8.com/color/48/000000/telegram-app.png" width="20"
+                            style="margin-right: 10px;" />Join Us on Telegram</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-sm-4 col-xs-6">
+                  <div class="footer-widget widget4">
                     <p>Help menu</p>
                     <ul style="list-style-type: square; padding-left: 16px;" class="widget-links pl-0 list-unstyled">
                       <li><a href="https://www.aarambh.foundation/">About</a></li>
@@ -1133,24 +1242,16 @@
                     </ul>
                   </div>
                 </div>
-                <div class="col-sm-4 col-xs-6">
-                  <!-- <div class="footer-widget widget3">
-                  <ul class="widget-links pl-0 list-unstyled">
-              
-                  </ul>
-                </div> -->
-                </div>
-                <div class="col-sm-5 col-xs-6 pl-lg-0">
+                <div class="col-sm-4 col-xs-6 pl-lg-0">
                   <div class="footer-widget widget4">
                     <p class="widget-title">Courses</p>
                     <ul style="list-style-type: square; padding-left: 16px;" class="widget-links pl-0 list-unstyled ">
-                      <li><a target="_blank" href="./Course_files/foundational.png">GS Pre cum Mains Foundation</a></li>
-                      <li><a target="_blank" href="./Course_files/professional.png">GS Pre cum Mains Foundation for
-                          Working and College
-                          Students</a></li>
-                      <li><a target="_blank" href="https://www.aarambh.foundation/">Individual modules (Prelims)</a>
+                      <li><a target="_blank" href="./Course_files/foundational.jpeg">Foundational</a></li>
+                      <li><a target="_blank" href="./Course_files/professional.jpeg">Working Professionals</a></li>
+                      <li><a target="_blank" href="./Course_files/crash.jpeg">Crash Course</a></li>
+                      <li><a target="_blank" href="./Course_files/individual.jpeg">Individual Modules</a>
                       </li>
-                      <li><a target="_blank" href="./Course_files/crash.png">Crash Course</a></li>
+                      
                     </ul>
                   </div>
                 </div>
