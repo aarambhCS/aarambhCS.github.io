@@ -51,23 +51,23 @@
      <img src="./image/preloader.gif" alt="preloader">
    </div>
    </div>    -->
-   <!-- Modal -->
-   <div class="modal fade" id="logIn" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-   aria-labelledby="logInLabel" aria-hidden="true">
-   <div class="modal-dialog modal-dialog-centered modal-lg">
-     <div class="modal-content">
-       <div class="modal-header">
-         <h5 class="modal-title" id="logInLabel">Log In</h5>
-         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-       </div>
-       <div class="modal-body align-self-center" style="width: 100%;">
-         The Portal is under development. Please contact on official number.
-       </div>
+    <!-- Modal -->
+    <div class="modal fade" id="logIn" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+      aria-labelledby="logInLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="logInLabel">Log In</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body align-self-center" style="width: 100%;">
+            The Portal is under development. Please contact on official number.
+          </div>
 
 
-     </div>
-   </div>
- </div>
+        </div>
+      </div>
+    </div>
     <!-- Modal -->
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
       aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -231,8 +231,11 @@
                       }
                     }
                   </style>
-                  <a href="./Course_files/aarambhProspectus.pdf" class="nav-link-item hide-item" target="_blank">Download
+                  <a href="./Course_files/aarambhProspectus.pdf" class="nav-link-item hide-item"
+                    target="_blank">Download
                     Prospectus</a>
+                  <a class="nav-link-item hide-item" type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">Application Form</a>
                 </li>
                 <!-- <li class="nav-item">
                   <a href="https://aarambh.foundation" class="nav-link-item">Courses</a>
@@ -253,10 +256,13 @@
                 }
               }
             </style>
-            <a style="background-color: #F39E1E; color: white"
+            <a style="background-color: #F39E1E; color: white; margin-right: 10px;"
               class="row-xl-3 row-lg-4 row-md-3 row-sm-12  btn focus-reset hide-button"
               href="./Course_files/aarambhProspectus.pdf" target="_blank">Download
               Prospectus</a>
+            <a style="background-color: #F39E1E; color: white"
+              class="row-xl-3 row-lg-4 row-md-3 row-sm-12  btn focus-reset hide-button" type="button"
+              data-bs-toggle="modal" data-bs-target="#staticBackdrop">Application Form</a>
           </div>
           <!-- mobile menu trigger -->
           <div class="mobile-menu-trigger">
@@ -284,11 +290,10 @@
               <div class="col justify-content-center">
                 <a class="row-xl-3 row-lg-4 row-md-3 row-sm-12 btn focus-reset"
                   style="background-color: #F39E1E; color: white; font-size: 1rem; margin-right: 1rem" type="button"
-                  class="btn focus-reset" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Application Form</a>
+                  class="btn focus-reset" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Sign Up</a>
                 <a target="_blank" class="row-xl-3 row-lg-4 row-md-3 row-sm-12 btn focus-reset"
                   style="background-color: #F39E1E; color: white; font-size: 1rem; margin-right: 1rem" type="button"
-                  data-bs-toggle="modal" data-bs-target="#logIn"
-                  >Log In</a>
+                  data-bs-toggle="modal" data-bs-target="#logIn">Log In</a>
               </div>
 
               <!-- <div class="star-ratings-l12 d-xs-flex align-items-baseline">
@@ -345,7 +350,8 @@
               <div style="min-height: 400px; max-height: 400px; margin-bottom: 20px;"
                 class="counter-single-wrapper-l-12 d-flex justify-content-center text-center bg-white position-relative overflow-hidden z-index-1">
                 <div class="d-block">
-                  <h5 style="line-height: 2.5rem;"><span style="font-size: 2.5rem; line-height: 2.5rem;">Foundational</span></h5>
+                  <h5 style="line-height: 2.5rem;"><span
+                      style="font-size: 2.5rem; line-height: 2.5rem;">Foundational</span></h5>
                   <p style="padding-top: 73px;">INR 14,999(Prelims)</p>
                   <p style="padding-top: 10px;">INR 24,999(Mains)</p>
                   <p style="padding-top: 10px;">INR 35,000 (Prelims+Mains)</p>
@@ -363,7 +369,8 @@
               <div style="min-height: 400px; max-height: 400px; margin-bottom: 20px;"
                 class="counter-single-wrapper-l-12 d-flex justify-content-center text-center bg-white position-relative overflow-hidden z-index-1">
                 <div class="d-block">
-                  <h5 style="line-height: 2.5rem;"><span style="font-size: 2.5rem; line-height: 2.5rem;">Working Professionals</span></h5>
+                  <h5 style="line-height: 2.5rem;"><span style="font-size: 2.5rem; line-height: 2.5rem;">Working
+                      Professionals</span></h5>
                   <p style="padding-top: 23px;">INR 16,999(Prelims)</p>
                   <p style="padding-top: 10px;">INR 26,999(Mains)</p>
                   <p style="padding-top: 10px;">INR 40,000 (Prelims+Mains)</p>
@@ -1250,7 +1257,7 @@
                       <li><a target="_blank" href="./Course_files/crash.jpeg">Crash Course</a></li>
                       <li><a target="_blank" href="./Course_files/individual.jpeg">Individual Modules</a>
                       </li>
-                      
+
                     </ul>
                   </div>
                 </div>
